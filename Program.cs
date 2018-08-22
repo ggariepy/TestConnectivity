@@ -20,12 +20,12 @@ namespace TestConnectivity
                 int.TryParse(args[0], out reps);
 
             if (args.Length < 2)
-                location = @"\\MPDBC1VS\TG\Individual\TD";
+                location = @"\\Server\share";
             else
                 location = args[1];
 
             if (args.Length < 3)
-                filter = @"*.TD*";
+                filter = @"*.filetype*";
             else
                 filter = args[2];
 
